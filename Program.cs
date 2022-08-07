@@ -28,15 +28,35 @@ Console.Clear();
 //44 5 78 -> 78
 //22 3 9 -> 22
 
-int a = 22;
-int b = 3;
-int c = 9;
+// int a = 22;
+// int b = 3;
+// int c = 9;
 
-int max = a;
+// int max = a;
 
-if (b>max) max = b;
-if (c > max) max = c;
+// if (b>max) max = b;
+// if (c > max) max = c;
 
-Console.WriteLine("Максимальное число " + max);
+// Console.WriteLine("Максимальное число " + max);
 
 
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+//4 -> да
+//-3 -> нет
+//7 -> нет
+
+
+int number = 7;
+
+int C = number % 2;
+
+if (C == 0)
+{
+Console.WriteLine(number + " - Четное число");
+}
+
+else 
+{
+
+Console.WriteLine(number + "- Нечетное число");
+}
