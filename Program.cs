@@ -9,10 +9,16 @@ Console.Clear();
 // // a = 2 b = 10 -> max = 10
 // // a = -9 b = -3 -> max = -3
 
-// int number1 = 9;
-// int number2 = -9;
+// Console.Write("Введите числа: ");
+
+// int number1 = Convert.ToInt32(Console.ReadLine());
+
+// int number2 = Convert.ToInt32(Console.ReadLine());
+
 // int max = number1;
+
 // int min = number2;
+
 // if (number2 > max)
 // { 
 //     max = number2;
@@ -28,14 +34,21 @@ Console.Clear();
 //44 5 78 -> 78
 //22 3 9 -> 22
 
-// int a = 22;
-// int b = 3;
-// int c = 9;
+// Console.Write("Введите число 1: ");
 
-// int max = a;
+// int A = Convert.ToInt32(Console.ReadLine());
 
-// if (b>max) max = b;
-// if (c > max) max = c;
+// Console.Write("Введите число 2: ");
+
+// int B = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Введите число 3: ");
+// int C = Convert.ToInt32(Console.ReadLine());
+
+// int max = A;
+
+// if (B>max) max = B;
+// if (C > max) max = C;
 
 // Console.WriteLine("Максимальное число " + max);
 
@@ -45,18 +58,39 @@ Console.Clear();
 //-3 -> нет
 //7 -> нет
 
+// Console.Write("Введите число: ");
 
-int number = 7;
+// int number = Convert.ToInt32(Console.ReadLine());
 
-int C = number % 2;
+// int C = number % 2;
 
-if (C == 0)
-{
-Console.WriteLine(number + " - Четное число");
-}
+// if (C == 0)
+// {
+// Console.WriteLine(number + " - Четное число");
+// }
 
-else 
-{
+// else 
+// {
 
-Console.WriteLine(number + "- Нечетное число");
-}
+// Console.WriteLine(number + "- Нечетное число");
+// };
+
+
+// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
+// Console.Write("Введите число: ");
+
+// int N = Convert.ToInt32(Console.ReadLine());
+
+// int D = 2;
+// while (D <= N)
+
+//   { int G = D % 2;
+//     if  (G == 0)
+//     {
+//         Console.Write(D + " "); 
+//     }
+//     D++;
+// }
