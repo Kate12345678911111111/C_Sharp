@@ -111,33 +111,100 @@ Console.Clear();
 //     Console.WriteLine("Определить четверть невозможно");
 //     }
 
-void printQuarter(int a, int b)
-{
-    if (a > 0 && b > 0)
-{
-    Console.WriteLine("Первая четверть");
-}
-else if (a > 0 && b < 0)
-{
-    Console.WriteLine("Четвертая четверть");
-}
-else if (a < 0 && b < 0)
-{
-    Console.WriteLine("Третья четверть");
-}
-else if (a < 0 && b > 0)
-{
-    Console.WriteLine("Вторая четверть");
-}
-else
-{
-    Console.WriteLine("Определить четверть невозможно");
-    }
+// int returnQuarter(int a, int b)
+// {
+//     if (a > 0 && b > 0)
+// {
+//     return 1;
+// }
+// else if (a > 0 && b < 0)
+// {
+//     return 2;
+// }
+// else if (a < 0 && b < 0)
+// {
+//     return 3;
+// }
+// else if (a < 0 && b > 0)
+// {
+//     return 4;
+// }
+// else
+// {
+//     return 0;
+//     }
 
-}
+// }
 
-Console.WriteLine("Введите координаты x");
-int x = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координаты y");
-int y = Convert.ToInt32(Console.ReadLine());
-printQuarter(x,y);
+// Console.WriteLine("Введите координаты x");
+// int x = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите координаты y");
+// int y = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(returnQuarter(x,y));
+// int quarter = returnQuarter(x,y);
+// Console.WriteLine($"Четверть: {quarter}");
+
+
+
+
+// Void printQuarter(int a, int b)
+// {
+//     if (a > 0 && b > 0)
+// {
+//     Console.WriteLine("Первая четверть");
+// }
+// else if (a > 0 && b < 0)
+// {
+//     Console.WriteLine("Четвертая четверть");
+// }
+// else if (a < 0 && b < 0)
+// {
+//     Console.WriteLine("Третья четверть");
+// }
+// else if (a < 0 && b > 0)
+// {
+//     Console.WriteLine("Вторая четверть");
+// }
+// else
+// {
+//     Console.WriteLine("Определить четверть невозможно");
+//     }
+
+// }
+
+// Console.WriteLine("Введите координаты x");
+// int x = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите координаты y");
+// int y = Convert.ToInt32(Console.ReadLine());
+// printQuarter(x,y);
+
+
+// Напишите программу, которая принимает на вход число (N) и выдает таблицу квадратов чисел от 1 до N
+
+// Console.Clear();
+// Console.Write("Введите число N: ");
+// int N = int.Parse(Console.ReadLine());
+// for(int i=1; i<=N; i++)
+// {
+//     Console.Write($"{i*i} ");
+
+// }
+
+// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве
+
+// Console.Clear();
+// Console.Write("введите x1: ");
+// int x1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("введите y1: ");
+// int y1 = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("введите x2: ");
+// int x2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("введите y2: ");
+// int y2 = Convert.ToInt32(Console.ReadLine());
+
+// double d = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2));
+
+// Console.WriteLine($"d={d:f2}");
+
+
