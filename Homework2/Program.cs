@@ -62,19 +62,19 @@ Console.Clear();
 // 1 -> нет
 
 // Homework
-    Console.Clear();
-    Console.Write("Введите число: ");
-    int number = Convert.ToInt32(Console.ReadLine());
-    if (number > 7 && number < 1)
-    {
-        Console.WriteLine("Неверный день недели");
-    }
-    if (number > 5 && number < 8)
-    {
-        Console.WriteLine("Да");
-    }
-    else
-    {
-        Console.WriteLine("Нет");
-    }
+    // Console.Clear();
+    // Console.Write("Введите число: ");
+    // int number = Convert.ToInt32(Console.ReadLine());
+    // if (number > 7 && number < 1)
+    // {
+    //     Console.WriteLine("Неверный день недели");
+    // }
+    // if (number > 5 && number < 8)
+    // {
+    //     Console.WriteLine("Да");
+    // }
+    // else
+    // {
+    //     Console.WriteLine("Нет");
+    // }
 
