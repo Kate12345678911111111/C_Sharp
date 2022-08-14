@@ -5,6 +5,45 @@
 // 23432 -> да
 
 
+// Console.Write("Введите пятизначное число: ");
+
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int firstNum = number / 10000;
+// Console.WriteLine("Первая цифра в числе: " + firstNum);
+
+// int secondNum = number / 1000 % 10;
+// Console.WriteLine("Вторая цифра в числе: " + secondNum);
+
+// int forthNum = number / 10 % 10;
+// Console.WriteLine("Четвертая цифра в числе: " + forthNum);
+
+// int fifthNum = number % 10;
+// Console.WriteLine("Пятая цифра в числе: " + fifthNum);
+
+// if (firstNum == fifthNum && secondNum == forthNum)
+
+//     Console.WriteLine("Число является палиндромом");
+
+// else
+//     Console.WriteLine("Число не является палиндромом");
+
+
+// Seminar 3
+// int number = new Random().Next(100, 1000);
+// int secondNum = number / 10 % 10;
+// Console.WriteLine($"Вторая цифра в числе {number} -> {secondNum}");
+
+
+
+
+
+
+
+
+
+
+
 
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
