@@ -30,19 +30,23 @@
 
 
 // Seminar 3
-// int number = new Random().Next(100, 1000);
-// int secondNum = number / 10 % 10;
-// Console.WriteLine($"Вторая цифра в числе {number} -> {secondNum}");
+// Console.Clear();
+
+// int number = new Random().Next(10000, 100000);
+// Console.Write(number );
 
 
+// int firstNum = number / 10000;
+// int secondNum = number / 1000 % 10;
+// int forthNum = number / 10 % 10;
+// int fifthNum = number % 10;
 
+// if (firstNum == fifthNum && secondNum == forthNum)
 
+// Console.WriteLine(" Число является палиндромом");
 
-
-
-
-
-
+// else
+// Console.WriteLine(" Число не является палиндромом");
 
 
 // Задача 21
