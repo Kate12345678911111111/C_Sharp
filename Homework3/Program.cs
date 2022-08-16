@@ -35,7 +35,6 @@
 // int number = new Random().Next(10000, 100000);
 // Console.Write(number );
 
-
 // int firstNum = number / 10000;
 // int secondNum = number / 1000 % 10;
 // int forthNum = number / 10 % 10;
@@ -94,3 +93,47 @@
 
 // }
 
+// Seminar 4
+
+// напишите программу,которая принимает на вход число А и выдает сумму чисел от 1 до А
+
+
+
+// int GetSumNums(int number)
+// {
+//     int sum = 0;
+//     for (int i = 1; i <= Math.Abs(number); i++)
+//     {
+//         sum += i;
+//     }
+//     return sum;
+// }
+
+// Console.Clear();
+
+// Console.WriteLine($"Сумма цифр от 1 до введенного числа: {GetSumNums(10)}");
+// Console.WriteLine($"Сумма цифр от 1 до введенного числа: {GetSumNums(7)}");
+
+// Console.Write("Введите число: ");
+// int num = int.Parse(Console.ReadLine());
+
+
+// Напишите программу, которая принимает на вход число и выдает количество чисел в числе
+
+
+
+void N(int x)
+
+{
+    int count = 0;
+    while ( x != 0)
+{
+    x = x / 10;
+    count++;
+}
+Console.WriteLine($"Введенное число имеет {count} знака");
+}
+
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+N (number);
