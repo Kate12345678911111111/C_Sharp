@@ -55,3 +55,94 @@
 //     };
 //     return Sum;
 // }
+
+
+// Seminar 5
+// Creat and Show massive
+
+// int[] CreateRandomArray(int N, int start, int end)
+// {
+//     int[] RandomArray = new int[N];
+//     for (int i = 0; i < N; i++)
+//     {
+//         RandomArray[i] = new Random().Next(start, end + 1);
+//     }
+//     return RandomArray;
+// }
+
+
+// int[] CreateArray()
+// {
+//     Console.WriteLine("Введите количество элементов массива");
+//     int size = Convert.ToInt32(Console.ReadLine());
+//     int[] RandomArray = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         Console.WriteLine($"Введите {i + 1} элемент массива");
+//         RandomArray[1] = Convert.ToInt32(Console.ReadLine());
+//     }
+//     return RandomArray;
+// }
+
+// // выводит значения элементов через пробел
+
+// void ShowArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+//     Console.WriteLine();
+// }
+
+// Console.Clear();
+// Console.WriteLine("Введите количество элементов в массиве");
+// int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите первое число случайно генерируемого диапазона");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите последнее число случайно генерируемого диапазона");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// int[] myRandomArray = CreateRandomArray(num, min, max);
+// ShowArray(myRandomArray);
+// Console.WriteLine("-------");
+// int[] myArray = CreateArray();
+// ShowArray(myArray);
+
+
+// / Напишите программу, которая задаёт массив 
+// // из 8 элементов, заполненный нулями и единицами в случайном порядке
+
+// Console.Clear();
+// int[] array = GetBinaryArray(8);
+// Console.WriteLine($"[{String.Join(" - ", array)}]");// выводит любое значение функции или переменной. "," - сепаратор, String.Join - выводит строку
+
+
+// int[] GetBinaryArray(int size)
+// {
+//     int[] result = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         result[i] = new Random().Next(3);
+//     }
+
+//     return result;
+// }
+
+// Напишите программу, которая задаёт массив 
+// // из 8 элементов и выводит их на экран
+
+// Console.Clear();
+// int[] array = GetRandomArray(8,0,10);
+// Console.WriteLine($"[{String.Join(", ", array)}]");
+
+// int[] GetRandomArray(int size,int minValue,int maxValue)
+// {
+//     int[] result = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         result[i] = new Random().Next(minValue,maxValue);
+//     }
+
+//     return result;
+// }
