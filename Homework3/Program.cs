@@ -122,18 +122,109 @@
 
 
 
-void N(int x)
+// void N(int x)
 
-{
-    int count = 0;
-    while ( x != 0)
-{
-    x = x / 10;
-    count++;
-}
-Console.WriteLine($"Введенное число имеет {count} знака");
-}
+// {
+//     int count = 0;
+//     while ( x != 0)
+// {
+//     x = x / 10;
+//     count++;
+// }
+// Console.WriteLine($"Введенное число имеет {count} знака");
+// }
 
-Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-N (number);
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// N (number);
+
+
+// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+// 3, 5 -> 243 (3⁵)
+// 2, 4 -> 16
+
+// Console.Clear();
+// Console.Write("Введите число А: ");
+// int A = int.Parse(Console.ReadLine());
+// Console.Write("Введите число B: ");
+// int B = int.Parse(Console.ReadLine);
+
+// Console.WriteLine($"{A} в степени {B} = {Pow(A,B)}");
+
+// int Pow(int num, int rank);
+
+// if 
+// {rank==0, return 1
+
+
+
+
+
+
+
+
+// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+// 452 -> 11
+// 82 -> 10
+// 9012 -> 12
+
+
+// int[] CreateRandomArray(int N, int start, int end)
+// {
+//     int[] RandowArray = new int[N];
+//     for (int i = 0; i < N; i++)
+//     {
+//         RandowArray[i] = new Random().Next(start, end + 1);
+//     }
+//     return RandowArray;
+
+// }
+
+
+int[] CreateArray()
+{Console.WriteLine("")}
+int size = 
+
+
+
+выводит значения элементов через пробел
+
+void ShowArray(int[] array)
+{for (int i=0; i < array.Length; i++)
+Console.Write(Array[i])+ " "}
+
+
+
+
+// Console.Clear();
+// Console.WriteLine("Введите количество элементов в массиве");
+// int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите первое число случайно генерируемого диапазона");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите последнее число случайно генерируемого диапазона");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// int[] myRandomArray = CreateRandomArray(num, min, max);
+// ShowArray(myRandomArray);
+// Console.WriteLine("-------");
+// int[] myArray = CreateArray();
+// ShowArray(myArray);
+
+
+// / Напишите программу, которая задаёт массив 
+// // из 8 элементов и выводит их на экран.
+// Console.Clear();
+// int[] array = GetRandomArray(8,0,100);
+// Console.WriteLine($"[{String.Join(", ", array)}]");
+
+
+// int[] GetRandomArray(int size,int minValue,int maxValue)
+// {
+//     int[] result = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         result[i] = new Random().Next(minValue,maxValue);
+//     }
+
+//     return result;
+// }
