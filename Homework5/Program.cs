@@ -61,41 +61,29 @@ void ShowArray(int[] array)
 }
 
 Console.Clear();
-// int N = new Random().Next(1, 20);
-// Console.WriteLine("Длинна массива: " + N);
-// int start = new Random().Next(1, 20);
-// Console.WriteLine("Начало диапазона массива: " + start);
-// int end = new Random().Next(20, 40);
-// Console.WriteLine("Конеw диапазона массива: " + end);
-// int[] Katearray = CreateRandomArray(N, start, end);
-int[] Katearray = CreateRandomArray(12, -8, 9);
-ShowArray(Katearray);
-Console.WriteLine();
+
+// int[] Katearray = CreateRandomArray(12, -8, 9); //// int N = new Random().Next(1, 20);
+                                                    // Console.WriteLine("Длинна массива: " + N);
+                                                    // int start = new Random().Next(1, 20);
+                                                    // Console.WriteLine("Начало диапазона массива: " + start);
+                                                    // int end = new Random().Next(20, 40);
+                                                    // Console.WriteLine("Конеw диапазона массива: " + end);
+                                                    // int[] Katearray = CreateRandomArray(N, start, end);
+// ShowArray(Katearray);
+// Console.WriteLine();
 
 
-int sum_nechet = 0;
-for (int i = 0; i < Katearray.Length; i++)
-{
-    if (i %2 != 0)
-        sum_nechet += Katearray[i];
-}
-Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях: {sum_nechet}");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// int sum_nechet = 0;
+// for (int i = 0; i < Katearray.Length; i++)
+// {
+//     if (i %2 != 0)
+//         sum_nechet += Katearray[i];
+// }
+// Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях: {sum_nechet}");
 
 
 
 // Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
+
+
