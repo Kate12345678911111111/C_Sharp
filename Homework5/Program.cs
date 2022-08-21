@@ -86,15 +86,61 @@
 // Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
 
-int[] CreateRandomArray(int N, int start, int end)
+// int[] CreateRandomArray(int N, int start, int end)
+// {
+//     int[] RandomArray = new int[N];
+//     for (int i = 0; i < N; i++)
+//     {
+//         RandomArray[i] = new Random().Next(start, end + 1);
+//     }
+//     return RandomArray;
+// }
+
+// void ShowArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+//     Console.WriteLine();
+// }
+
+// Console.Clear();
+
+// int[] Katearray = CreateRandomArray(12, -8, 9);
+// ShowArray(Katearray);
+// Console.WriteLine();
+
+// int max = 0;
+// int min = 0;
+// for (int i = 0; i < Katearray.Length; i++)
+// {
+//     if (Katearray[i] > max)
+//         max = Katearray[i];
+//     if (Katearray[i] < min)
+//         min = Katearray[i];
+// }
+// Console.WriteLine($"Максимальный элемент массива: {max}, Минимальный элемент массива {min}");
+// Console.WriteLine($"Разница между максимальным и минимальным элементов массива: {max-min}");
+
+
+
+
+
+int[] CreateArray()
 {
-    int[] RandomArray = new int[N];
-    for (int i = 0; i < N; i++)
+    Console.WriteLine("Введите количество элементов массива");
+    int size = Convert.ToInt32(Console.ReadLine());
+    int[] RandomArray = new int[size];
+    for (int i = 0; i < size; i++)
     {
-        RandomArray[i] = new Random().Next(start, end + 1);
+        Console.WriteLine($"Введите {i + 1} элемент массива");
+        RandomArray[1] = Convert.ToInt32(Console.ReadLine());
     }
     return RandomArray;
 }
+
+// // выводит значения элементов через пробел
 
 void ShowArray(int[] array)
 {
@@ -105,20 +151,16 @@ void ShowArray(int[] array)
     Console.WriteLine();
 }
 
-Console.Clear();
+// Console.Clear();
+// Console.WriteLine("Введите количество элементов в массиве");
+// int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите первое число случайно генерируемого диапазона");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите последнее число случайно генерируемого диапазона");
+// int max = Convert.ToInt32(Console.ReadLine());
 
-int[] Katearray = CreateRandomArray(12, -8, 9);
-ShowArray(Katearray);
-Console.WriteLine();
-
-int max = 0;
-int min = 0;
-for (int i = 0; i < Katearray.Length; i++)
-{
-    if (Katearray[i] > max)
-        max = Katearray[i];
-    if (Katearray[i] < min)
-        min = Katearray[i];
-}
-Console.WriteLine($"Максимальный элемент массива: {max}, Минимальный элемент массива {min}");
-Console.WriteLine($"Разница между максимальным и минимальным элементов массива: {max-min}");
+// int[] myRandomArray = CreateRandomArray(num, min, max);
+// ShowArray(myRandomArray);
+// Console.WriteLine("-------");
+int[] myArray = CreateArray();
+ShowArray(myArray);
