@@ -135,7 +135,7 @@ int[] CreateArray()
     for (int i = 0; i < size; i++)
     {
         Console.WriteLine($"Введите {i + 1} элемент массива");
-        RandomArray[1] = Convert.ToInt32(Console.ReadLine());
+        RandomArray[i] = Convert.ToInt32(Console.ReadLine());
     }
     return RandomArray;
 }
