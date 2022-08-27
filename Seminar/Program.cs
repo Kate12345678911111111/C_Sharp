@@ -1,7 +1,7 @@
 ﻿
 //Seminar 1
 
-/ Seminar 3
+// / Seminar 3
 // Console.Write("введите случайное число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // if (Math.Abs(number) < 100)
@@ -393,7 +393,7 @@
 //         Console.Write(array[i] + " ");
 //     }
 //     Console.WriteLine();
-    
+
 // }
 
 //     int[] Newarray = CreateRandomArray(12, -9, 9);
@@ -537,7 +537,7 @@
 
 
 // Seminar 7
-
+// Console.Clear();
 // Console.Write("Введите через пробел b1, k1, b2, k2: ");
 // string[] f = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries); // удаление пробелов
 
@@ -554,5 +554,45 @@
 //     result[0] = (inB2 - inB1) / (inK1 - inK2);
 //     result[1] = inK1 * result[0] + inB1;
 //     return result;
+// }
 
-}
+
+// задать двумерный массив размером m на n,
+// заполненный случайными целыми числама
+
+// Console.Clear();
+
+// Console.Write("Введите количество строк массива: ");
+// int rows = int.Parse(Console.ReadLine());
+
+// Console.Write("Введите количество столбцов массива: ");
+// int columns = int.Parse(Console.ReadLine());
+
+// int[,] array = GetArray(rows, columns, 0, 10);
+// PrintArray(array);
+
+// int[,] GetArray(int m, int n, int minValue, int maxValue)
+// {
+//     int[,] result = new int[m, n];  // рандомное вещественное double
+//     for (int i = 0; i < m; i++)
+//     {
+//         for (int j = 0; j < n; j++)
+//         {
+//             result[i, j] = new Random().Next(minValue, maxValue + 1); // рандомное вещественное 
+//         }
+//     }
+//     return result;
+// }
+
+// void PrintArray(int[,] inArray)
+// {
+//     for (int i = 0; i < inArray.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < inArray.GetLength(1); j++)
+//         {
+//             Console.Write($"{inArray[i, j]} ");
+//         }
+//         Console.WriteLine();
+//     }
+// }
+
