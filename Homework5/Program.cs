@@ -276,9 +276,22 @@
 
 
 
-int[]asd = new int []{0,1,2,3};
-for (int i=0; i<asd.Length; i++)
-{Console.WriteLine(asd[i]);
-}
-string str = string.Join(", ", asd);
-Console.WriteLine(str);
+// int[] asd = new int[] { 0, 1, 2, 3 };
+// for (int i = 0; i < asd.Length; i++)
+// {
+//     Console.WriteLine(asd[i]);
+// }
+// string str = string.Join(", ", asd);
+// Console.WriteLine(str);
+
+
+// string str = "1,2,3,4";
+// string[] strArray = str.Split(' ');
+
+// for (int i = 0; i < strArray.Length; i++)
+// {
+//     Console.WriteLine (strArray[i]);
+// }
+
+// int[] array = new int[strArray.Length];
+// array[i] = int.Parse(strArray[i]);
